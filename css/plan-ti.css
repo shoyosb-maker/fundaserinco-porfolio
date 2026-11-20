@@ -1002,9 +1002,12 @@ ol.roadmap {
   .demo-visual{order:2}
 }
 
-@media (max-width:760px){
+@media (max-width:900px){
   .smp-grid{grid-template-columns:minmax(0,1fr)}
-  .smp-img{width:96px}
+}
+
+@media (max-width:760px){
+  .smp-img{width:104px}
 }
 
 @media (max-width:420px){

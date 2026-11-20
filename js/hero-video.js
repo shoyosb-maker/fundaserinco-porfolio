@@ -15,7 +15,7 @@
 
   var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   var SOURCE_TYPES = [['mp4', 'video/mp4'], ['webm', 'video/webm']];
-  var SAFETY_MS = 4200;   // si el video no arranca, se muestra el contenido igual
+  var SAFETY_MS = 2200;   // si el video no arranca, el texto sale igual de rápido
   var EARLY_MS = 2600;    // el texto entra con el video aún en movimiento
 
   var done = false;

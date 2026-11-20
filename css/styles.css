@@ -315,12 +315,15 @@ body > *{position:relative;z-index:1}
   position:relative;
   min-height:100vh;min-height:100svh;
   display:flex;align-items:center;
-  overflow:hidden;
+  /* el recorte del video va en .scene-stage: si el texto crece (pantallas
+     bajas o en horizontal), la sección crece y el contenido no se corta */
+  overflow:visible;
   padding-top:var(--bar-h);
 }
 .scene-stage{
   position:absolute;inset:0;z-index:0;
   display:grid;place-items:center;
+  overflow:hidden;
 }
 .scene-media{position:absolute;inset:0;background:#04070d;overflow:hidden}
 .scene-video{
@@ -1553,6 +1556,25 @@ footer{
   .scene-actions{margin-top:20px}
   .hero-stats{margin-top:22px}
   .hstat{padding:14px 16px}
+}
+
+/* Móvil y tablet en horizontal: el hero no cabe centrado, así que se apoya
+   arriba y se comprime el ritmo vertical en lugar de recortar el texto. */
+@media (max-height:680px){
+  .scene{align-items:flex-start}
+  .scene-content{padding-top:12px;padding-bottom:24px}
+  .scene-content h1{font-size:clamp(1.45rem,3.6vw,2.15rem);margin:10px 0 10px}
+  .scene-content .lead{font-size:.85rem;line-height:1.52}
+  .scene-actions{margin-top:14px;gap:8px}
+  .hero-stats{margin-top:16px}
+  .hstat{padding:11px 13px}
+  .scene-badge{font-size:.62rem}
+}
+
+/* Puntos del deck: más área de toque donde hay dedo y sitio de sobra */
+@media (pointer:coarse) and (min-height:700px){
+  .deck-dots{gap:3px}
+  .deck-dot{min-height:30px;padding:0 12px}
 }
 
 /* ---------- 20. MOVIMIENTO REDUCIDO ---------- */

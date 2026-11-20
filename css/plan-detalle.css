@@ -419,6 +419,8 @@ ol.phases li .d{
 @media (max-width:1180px){
   .plan-grid{grid-template-columns:minmax(0,1fr)}
   .side{position:static;grid-template-columns:repeat(2,minmax(0,1fr))}
+  /* con un número impar de tarjetas, la última ocupa la fila completa */
+  .side > .side-card:last-child:nth-child(odd){grid-column:1/-1}
   .proc-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 @media (max-width:1024px){
