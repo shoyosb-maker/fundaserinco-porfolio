@@ -15,8 +15,8 @@
   var conn = navigator.connection;
   var lightMode = reducedMotion.matches || !!(conn && (conn.saveData || /2g/.test(conn.effectiveType || '')));
 
-  var MIN_MS = 3000;   // el video de la pantalla de carga dura 3 s
-  var MAX_MS = 4500;   // tope: la página nunca queda atrapada en la carga
+  var MIN_MS = 2000;   // el video de la pantalla de carga dura 2 s
+  var MAX_MS = 3000;   // tope: la página nunca queda atrapada en la carga
   var FADE_MS = 500;   // acompaña la transición CSS del overlay
 
   var startedAt = Date.now();
@@ -64,7 +64,7 @@
     if (video) {
       try { video.pause(); } catch (e) {}
       var showEnd = function () {
-        try { video.currentTime = Math.max(0, (video.duration || 3) - 0.05); } catch (e) {}
+        try { video.currentTime = Math.max(0, (video.duration || 2) - 0.05); } catch (e) {}
       };
       if (video.readyState >= 1) showEnd();
       else video.addEventListener('loadedmetadata', showEnd, { once: true });
