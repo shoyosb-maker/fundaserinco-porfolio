@@ -47,7 +47,7 @@
   var heads = Array.prototype.slice.call(document.querySelectorAll('main h2'))
     .filter(function (h) {
       /* las bandas de presentación y el cierre no entran en el índice */
-      return !h.closest('.proc-head') && !h.closest('.plan-cta-band');
+      return !h.closest('.proc-head') && !h.closest('.plan-cta-band') && !h.closest('.demo-copy');
     });
   var toc = document.querySelector('[data-det-toc]');
   if (toc && heads.length > 2) {
