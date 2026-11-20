@@ -252,6 +252,29 @@
   transition: color .22s ease;
 }
 
+/* toda la tarjeta abre el plan: el enlace del título extiende su área */
+.plan {
+  cursor: pointer;
+}
+
+.plan .plan-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: inherit;
+}
+
+.plan .p-cta a {
+  position: relative;
+  z-index: 2;
+}
+
+.plan .plan-link:focus-visible::after {
+  outline: 2px solid var(--cyan);
+  outline-offset: 3px;
+}
+
 .plan h3 a:hover {
   color: var(--cyan-2);
 }
