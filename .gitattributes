@@ -1,0 +1,10 @@
+* text=auto eol=lf
+
+# Binarios: sin normalizar ni convertir
+*.webp binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.mp4 binary
+*.woff2 binary
+*.ico binary

@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#05080f">
+<meta name="description" content="Plan Intermedio de Fundaserinco: web app con roles, base de datos, catálogo de servicios, panel de administración y tres automatizaciones de operación incluidas.">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/img/brand/logo-simbolo-128.png">
+<link rel="apple-touch-icon" href="../assets/img/brand/logo-simbolo-180.png">
+<title>Plan Intermedio · operación conectada | Fundaserinco</title>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Fundaserinco">
+<meta property="og:locale" content="es_CO">
+<meta property="og:title" content="Plan Intermedio · operación conectada | Fundaserinco">
+<meta property="og:description" content="Plan Intermedio de Fundaserinco: web app con roles, base de datos, catálogo de servicios, panel de administración y tres automatizaciones de operación incluidas.">
+<meta property="og:image" content="../assets/img/og/planes.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/jpeg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Plan Intermedio · operación conectada | Fundaserinco">
+<meta name="twitter:description" content="Plan Intermedio de Fundaserinco: web app con roles, base de datos, catálogo de servicios, panel de administración y tres automatizaciones de operación incluidas.">
+<meta name="twitter:image" content="../assets/img/og/planes.jpg">
+<link rel="preload" href="../assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../css/fonts.css?v=20261120e">
+<script>document.documentElement.classList.remove("no-js");</script>
+<link rel="stylesheet" href="../css/styles.css?v=20261120f">
+<link rel="stylesheet" href="../css/plan-detalle.css?v=20261122b">
+<link rel="stylesheet" href="../css/plan-ti.css?v=20261122c">
+<link rel="stylesheet" href="../css/detalle.css?v=20261120h">
+</head>
+<body class="detalle plan-page" style="--accent:#4f9dff;--accent-soft:rgba(79,157,255,.30);--accent-line:rgba(79,157,255,.48)">
+
+<header class="topbar">
+  <a class="tb-brand" href="../index.html" aria-label="Fundaserinco, volver al portafolio">
+    <img src="../assets/img/brand/logo-simbolo-128.png" alt="Símbolo Fundaserinco">
+    <span class="tb-name">Fundaserinco<span>Plan de TI</span></span>
+  </a>
+  <div class="tb-status"><i></i>Plan 02 de 04</div>
+  <div class="tb-right">
+    <a class="tb-tel" href="index.html">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Los cuatro planes</span>
+    </a>
+    <a class="btn btn-primary" href="#cotizar">Cotizar</a>
+  </div>
+</header>
+
+<main>
+  <section class="plan-hero" style="--accent:#4f9dff;--accent-soft:rgba(79,157,255,.30);--accent-line:rgba(79,157,255,.48)">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <a class="back" href="index.html">← Volver a los planes</a>
+          <span class="eyebrow">Plan 02 · Operación conectada</span>
+          <h1>El sitio deja de ser vitrina y empieza a <span class="grad">guardar trabajo</span></h1>
+          <div class="price-line">
+            <span class="amount">$8.900.000</span>
+            <span class="cur">COP · pago único</span>
+            <span class="alt"><b>USD 2.618</b> · referencia a TRM 3.400</span>
+          </div>
+          <p class="sub">La web app con usuarios, roles y base de datos propia, más tres automatizaciones que mueven la información sin que nadie la copie a mano: del formulario al CRM, de la solicitud al PDF de cotización y del silencio del cliente al recordatorio de seguimiento.</p>
+          <div class="plan-facts">
+        <div><span>Inversión</span><b>$8.900.000 <small>COP</small></b></div>
+        <div><span>Plazo</span><b>5 a 7 <small>semanas</small></b></div>
+        <div><span>Automatizaciones</span><b>3 <small>incluidas</small></b></div>
+        <div><span>Mensualidad</span><b>$790.000 <small>COP</small></b></div>
+          </div>
+          <div class="scene-actions">
+          <a class="btn btn-primary" href="#autom">Ver las 3 automatizaciones
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="cotizador.html#plan-intermedio">Calcular mi inversión</a>
+          <a class="btn btn-ghost" href="../servicios/tecnologia-software.html">Ver la ficha técnica</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="seal">
+            <span class="seal-ring"></span><span class="seal-ring two"></span>
+            <span class="seal-icon"><img src="../assets/img/brand/logo-simbolo-180.png" alt="" width="180" height="180" decoding="async"></span>
+            <span class="seal-tag">Plan 02</span>
+            <i class="spark s1"></i><i class="spark s2"></i><i class="spark s3"></i><i class="spark s4"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="demo-band">
+    <div class="wrap demo-grid">
+      <div class="demo-copy">
+        <span class="sec-tag">Así funciona</span>
+        <h2>El panel donde el trabajo deja de vivir en el chat</h2>
+        <p>Solicitudes con estado, responsable y fecha; roles que ven solo lo suyo; y tres flujos que mueven la información sin que nadie la copie a mano. Lo que se consulta, se consulta una sola vez.</p>
+        <ul class="demo-list">
+            <li><b>Roles y permisos</b> cada quien ve lo que le corresponde, validado en servidor</li>
+            <li><b>Trazabilidad</b> estado, responsable y fecha en cada solicitud</li>
+            <li><b>Tres flujos</b> lead, PDF de cotización y recordatorio a las 48 h</li>
+            <li><b>Notificaciones</b> correo y WhatsApp ante cada cambio de estado</li>
+        </ul>
+      </div>
+      <div class="demo-visual">
+      <div class="mock mk-panel">
+        <div class="mock-top"><i></i><i></i><i></i><em>panel · rol administrador</em></div>
+        <div class="mk-panel-body">
+          <div class="mk-side"><span class="on"></span><span></span><span></span><span></span></div>
+          <div class="mk-rows">
+            <div class="mk-row"><i></i><span></span><b class="s1">Nueva</b></div>
+            <div class="mk-row"><i></i><span></span><b class="s2">En proceso</b></div>
+            <div class="mk-row"><i></i><span></span><b class="s3">Cerrada</b></div>
+            <div class="mk-row"><i></i><span></span><b class="s1">Nueva</b></div>
+          </div>
+        </div>
+        <div class="mock-foot"><span>Solicitudes abiertas</span><b>18 · 3 vencen hoy</b></div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="proc-band">
+    <div class="wrap">
+      <div class="proc-head">
+        <span class="sec-tag">Cómo se entrega este plan</span>
+        <h2>Datos, roles y tres flujos trabajando</h2>
+        <p>Primero el modelo de datos y los permisos; después las pantallas y los flujos que mueven la información.</p>
+      </div>
+      <div class="proc-grid">
+        <article class="proc-card">
+          <span class="proc-ico">◇</span>
+          <div class="mini"><div class="mini-cube"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+          <h3>Modelo de datos</h3>
+          <p>Usuarios, roles y permisos definidos antes de la primera pantalla.</p>
+        </article>
+        <article class="proc-card">
+          <span class="proc-ico">◎</span>
+          <div class="mini"><div class="mini-scan"></div></div>
+          <h3>Web app con roles</h3>
+          <p>Catálogo, solicitudes y panel de administración funcionales.</p>
+        </article>
+        <article class="proc-card">
+          <span class="proc-ico">▤</span>
+          <div class="mini"><div class="mini-bars"><span></span><span></span><span></span><span></span><span></span></div></div>
+          <h3>Tres flujos</h3>
+          <p>Lead, cotización y seguimiento automatizados de punta a punta.</p>
+        </article>
+        <article class="proc-card">
+          <span class="proc-ico">✓</span>
+          <div class="mini"><div class="mini-pay"><i></i><i></i><i></i></div></div>
+          <h3>Marcha y soporte</h3>
+          <p>Pruebas con usuarios reales y 60 días de acompañamiento.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="plan-main">
+    <div class="wrap plan-grid">
+      <div class="plan-col">
+
+        <div class="blk" id="incluye">
+          <h2><span class="n">01</span>Qué incluye</h2>
+          <p class="sub">El alcance se cierra por escrito antes de empezar. Esto es lo que entra en este plan, sin letra menuda.</p>
+          <ul class="chk">
+            <li><b>Todo lo del plan Esencial</b>, sin recortes</li>
+            <li><b>Web app</b> con autenticación, roles y permisos por módulo</li>
+            <li><b>Base de datos relacional</b> con respaldos automáticos</li>
+            <li><b>Catálogo de servicios</b> editable desde el panel</li>
+            <li><b>Gestión de solicitudes</b> con estados, filtros y trazabilidad</li>
+            <li><b>Panel de administración</b> responsive con búsqueda y exportes</li>
+            <li><b>Notificaciones</b> por correo y WhatsApp ante cada cambio de estado</li>
+            <li><b>Tres automatizaciones</b> de operación incluidas y documentadas</li>
+            <li><b>60 días de soporte</b> para corregir lo que aparezca en uso real</li>
+          </ul>
+        </div>
+
+        <div class="blk" id="autom">
+          <h2><span class="n">02</span>Automatizaciones incluidas</h2>
+          <p class="sub">Cada flujo está valorado con el precio que tendría contratado por separado. Aquí va incluido dentro del plan, sin cobro adicional.</p>
+          <div class="auto-head">
+            <span class="auto-count">3 automatizaciones incluidas</span>
+            <span class="auto-count auto-value">Valor por separado: $3.050.000</span>
+          </div>
+          <div class="tbl-wrap">
+            <table class="tbl">
+              <thead>
+                <tr><th scope="col">Flujo</th><th scope="col">Qué resuelve</th><th scope="col">Valor</th><th scope="col">En el plan</th></tr>
+              </thead>
+              <tbody>
+            <tr class="is-in">
+              <th scope="row"><span class="flow-name">Lead del sitio → CRM + aviso al asesor</span></th>
+              <td>El formulario valida los datos, crea el contacto en el CRM, envía correo de confirmación y avisa al asesor por WhatsApp con el resumen del caso.</td>
+              <td class="flow-price">$1.200.000</td>
+              <td><span class="tag-in">Incluido</span></td>
+            </tr>
+            <tr class="is-in">
+              <th scope="row"><span class="flow-name">Solicitud creada → PDF de cotización</span></th>
+              <td>Al pasar la solicitud a «cotizada», se genera el PDF con el formato de la empresa y se envía al cliente con copia al área comercial.</td>
+              <td class="flow-price">$1.200.000</td>
+              <td><span class="tag-in">Incluido</span></td>
+            </tr>
+            <tr class="is-in">
+              <th scope="row"><span class="flow-name">Seguimiento a las 48 horas</span></th>
+              <td>Si el cliente no responde en dos días, el flujo envía un recordatorio con tono de marca y deja la tarea marcada en el panel.</td>
+              <td class="flow-price">$650.000</td>
+              <td><span class="tag-in">Incluido</span></td>
+            </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="auto-note">
+            <p><b>Método de valoración.</b> Un flujo medio toma entre 10 y 13 horas: lógica condicional, plantillas, manejo de errores y prueba con datos reales. A $100.000–$120.000 la hora, los tres flujos de este plan se cotizan en $3.050.000 por separado.</p>
+            <p><b>Costos recurrentes.</b> Plataforma en la cuenta del cliente: n8n Cloud Starter cuesta 20 €/mes y Zapier arranca en 19,99 USD/mes. Se elige la más económica que resuelva el caso y ese costo no pasa por Fundaserinco.</p>
+          </div>
+        </div>
+
+        <div class="blk" id="construye">
+          <h2><span class="n">03</span>Cómo se construye</h2>
+          <p class="sub">El cronograma se fija en la propuesta y se mueve solo si el cliente aprueba el cambio por escrito. Cada barra muestra cuánto pesa esa fase dentro del total.</p>
+          <div class="rm-head">
+            <span class="rm-total"><b>7</b> semanas de plazo</span>
+            <span class="rm-note">4 fases · la barra muestra el peso de cada una</span>
+          </div>
+          <ol class="roadmap">
+          <li class="rm-step">
+            <span class="rm-top"><span class="rm-num">01</span><span class="rm-when">Semana 1</span></span>
+            <h4>Levantamiento y datos</h4>
+            <p>Procesos actuales, campos obligatorios y reglas de permisos por rol.</p>
+            <span class="rm-gauge"><i style="--w:14%"></i></span>
+            <span class="rm-dur">1 semana de trabajo</span>
+          </li>
+          <li class="rm-step">
+            <span class="rm-top"><span class="rm-num">02</span><span class="rm-when">Semanas 2-3</span></span>
+            <h4>Construcción del núcleo</h4>
+            <p>Modelo de datos, autenticación y módulos de catálogo y solicitudes.</p>
+            <span class="rm-gauge"><i style="--w:29%"></i></span>
+            <span class="rm-dur">2 semanas de trabajo</span>
+          </li>
+          <li class="rm-step">
+            <span class="rm-top"><span class="rm-num">03</span><span class="rm-when">Semanas 4-6</span></span>
+            <h4>Automatizaciones</h4>
+            <p>Los tres flujos conectados con credenciales propias y registro de errores.</p>
+            <span class="rm-gauge"><i style="--w:43%"></i></span>
+            <span class="rm-dur">3 semanas de trabajo</span>
+          </li>
+          <li class="rm-step">
+            <span class="rm-top"><span class="rm-num">04</span><span class="rm-when">Semana 7</span></span>
+            <h4>Marcha y capacitación</h4>
+            <p>Pruebas con el equipo, ajustes y sesión de uso con el panel.</p>
+            <span class="rm-gauge"><i style="--w:14%"></i></span>
+            <span class="rm-dur">1 semana de trabajo</span>
+          </li>
+          </ol>
+        </div>
+
+        <div class="blk" id="entregables">
+          <h2><span class="n">04</span>Entregables al cierre</h2>
+          <p class="sub">Lo que queda en manos del cliente el día de la entrega, sin depender de nadie para operarlo.</p>
+          <ul class="chk">
+            <li>Web app desplegada con base de datos y respaldos</li>
+            <li>Documentación del modelo de datos y de los roles</li>
+            <li>Tres flujos de automatización documentados, con credenciales del cliente</li>
+            <li>Manual de administración del panel</li>
+            <li>Registro de las pruebas de aceptación</li>
+            <li>Sesión de capacitación grabada para el equipo</li>
+          </ul>
+        </div>
+
+        <div class="blk" id="seguridad">
+          <h2><span class="n">05</span>Seguridad y datos de clientes</h2>
+          <p class="sub">RLS activo desde la primera migración: cada usuario ve sus filas y nada más, aunque la consulta que llega al servidor pida la tabla completa.</p>
+          <div class="auto-head">
+            <span class="auto-count auto-wrap">RLS activo · una política por tabla y operación</span>
+          </div>
+          <ul class="chk">
+            <li><b>Row Level Security</b> activo en todas las tablas con datos de usuario</li>
+            <li>Contraseñas con <b>argon2id</b>; nunca en texto plano ni con hash reversible</li>
+            <li>Permisos por módulo verificados en el servidor, no ocultando botones</li>
+            <li>Sesión en cookie <b>HttpOnly</b> y <b>SameSite</b>, con rotación de token</li>
+            <li>Respaldo diario cifrado con restauración probada</li>
+            <li>Registro de auditoría de altas, cambios y accesos</li>
+          </ul>
+          <div class="note-box">
+            <p>El filtro por fila vive en la base, así que se aplica a cualquier cliente que se conecte: la web, el panel o un script suelto. Borrar una condición del frontend no abre nada.</p>
+            <p><a href="../servicios/tecnologia-software.html#seguridad">Ver cómo se escribe una política de RLS y cómo se prueba →</a></p>
+          </div>
+        </div>
+
+        <div class="blk" id="excluye">
+          <h2><span class="n">06</span>Qué no incluye</h2>
+          <p class="sub">Decirlo antes evita discusiones después. Lo que está en esta lista se cotiza aparte o simplemente no se hace.</p>
+          <ul class="chk">
+            <li class="no">Cotizador con reglas de negocio y portal de clientes</li>
+            <li class="no">Pasarela de pagos y sincronización con ERP o CRM</li>
+            <li class="no">Funciones de inteligencia artificial sobre los datos</li>
+            <li class="no">Aplicación móvil nativa (la web app ya es responsive)</li>
+          </ul>
+        </div>
+
+        <div class="blk" id="addons">
+          <h2><span class="n">07</span>Add-ons que se suman</h2>
+          <p class="sub">Piezas con precio propio para ampliar el alcance sin cambiar de plan.</p>
+          <div class="addon-grid">
+          <article class="addon-card">
+            <div class="addon-top">
+              <h3>Flujo de automatización medio</h3>
+              <span class="addon-price">$1.200.000 COP</span>
+            </div>
+            <p>Tres a cinco aplicaciones con lógica condicional y manejo de errores.</p>
+            <span class="addon-meta">Pago único</span>
+          </article>
+          <article class="addon-card">
+            <div class="addon-top">
+              <h3>Función con IA</h3>
+              <span class="addon-price">$1.900.000 COP</span>
+            </div>
+            <p>Clasificación o extracción sobre los datos propios del negocio.</p>
+            <span class="addon-meta">Pago único</span>
+          </article>
+          <article class="addon-card">
+            <div class="addon-top">
+              <h3>Módulo de reportes</h3>
+              <span class="addon-price">$1.200.000 COP</span>
+            </div>
+            <p>Tableros con filtros por fecha, sede y responsable.</p>
+            <span class="addon-meta">Pago único</span>
+          </article>
+          <article class="addon-card">
+            <div class="addon-top">
+              <h3>Soporte ampliado</h3>
+              <span class="addon-price">$790.000 / mes</span>
+            </div>
+            <p>Monitoreo, respaldos, bolsa de cuatro horas y atención prioritaria.</p>
+            <span class="addon-meta">Mensual, opcional</span>
+          </article>
+          </div>
+        </div>
+
+        <div class="blk" id="escalera">
+          <h2><span class="n">08</span>Dónde encaja en la escalera</h2>
+          <p class="sub">Cada plan incluye todo el anterior. La diferencia es alcance, no calidad: el equipo, las pruebas y la documentación son los mismos.</p>
+          <div class="ladder">
+            <div class="ladder-row is-base">
+              <span class="l-step">Este plan</span>
+              <div>
+                <h4>Plan 02 · Intermedio</h4>
+                <p>Web app con roles, catálogo, solicitudes y tres automatizaciones valoradas en $3.050.000 por separado.</p>
+              </div>
+              <span class="l-price">$8.900.000</span>
+            </div>
+            <div class="ladder-row">
+              <span class="l-step">El siguiente paso</span>
+              <div>
+                <h4>Plan 03 · Élite</h4>
+                <p>Suma el cotizador con reglas de negocio, el portal de clientes, pagos y CRM, el dashboard y tres flujos más, incluida la sincronización con el ERP.</p>
+              </div>
+              <span class="l-price">+ $8.000.000</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="blk" id="estimador">
+          <h2><span class="n">09</span>Estimador del plan</h2>
+          <p class="sub">El precio base más los flujos y add-ons que quieras sumar. Sirve para decidir el alcance antes de la propuesta formal.</p>
+
+        <div class="calc-box" data-calc="plan" data-base="8900000" data-unit="1200000" data-month="790000">
+          <div class="calc-fields">
+            <div class="calc-field">
+              <span>Flujo medio adicional</span>
+              <label for="pf-intermedio">
+                <input type="range" id="pf-intermedio" data-in="flows" min="0" max="10" step="1" value="0" data-unit=" flujos">
+                <output for="pf-intermedio">0 flujos</output>
+              </label>
+            </div>
+            <div class="calc-field">
+              <span>Add-ons</span>
+              <div class="calc-checks">
+            <label><input type="checkbox" data-in="intermedio0" data-price="1200000" data-month="0" data-label="Flujo de automatización medio"><span>Flujo de automatización medio</span></label>
+            <label><input type="checkbox" data-in="intermedio1" data-price="1900000" data-month="0" data-label="Función con IA"><span>Función con IA</span></label>
+            <label><input type="checkbox" data-in="intermedio2" data-price="1200000" data-month="0" data-label="Módulo de reportes"><span>Módulo de reportes</span></label>
+            <label><input type="checkbox" data-in="intermedio3" data-price="0" data-month="790000" data-label="Soporte ampliado"><span>Soporte ampliado</span></label>
+              </div>
+            </div>
+          </div>
+          <div class="calc-result">
+            <span class="cr-label">Inversión estimada</span>
+            <span class="cr-value" data-out="main">—</span>
+            <p class="cr-note" data-out="note"></p>
+            <p class="cr-disclaimer">Precio base del plan más los flujos y add-ons marcados. No incluye IVA ni consumos variables de terceros; el valor cerrado se emite en la propuesta.</p>
+          </div>
+        </div>
+        </div>
+
+        <div class="blk" id="preguntas">
+          <h2><span class="n">10</span>Preguntas frecuentes</h2>
+          <div class="faq">
+          <details class="faq-item">
+            <summary>¿Puedo empezar por el plan Esencial y subir después?</summary>
+            <div class="faq-body"><p>Sí. La landing del plan Esencial se reutiliza dentro del Intermedio, y lo ya pagado se descuenta del nuevo alcance dentro de los primeros seis meses.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary>¿Dónde viven los datos?</summary>
+            <div class="faq-body"><p>En la base de datos del proyecto, con respaldos diarios y retención configurable. El cliente es dueño de la base y puede exportarla completa cuando quiera.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary>¿Las automatizaciones dependen de una suscripción?</summary>
+            <div class="faq-body"><p>Los flujos corren en una plataforma de automatización con costo mensual propio, que se paga desde la cuenta del cliente. Se elige la más económica que resuelva el caso.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary>¿Qué pasa si un flujo falla?</summary>
+            <div class="faq-body"><p>Cada flujo tiene registro de ejecuciones y alerta al responsable. Los reintentos son automáticos y, si el error persiste, llega un aviso por correo con el detalle.</p></div>
+          </details>
+          </div>
+        </div>
+
+      </div>
+      <aside class="side">
+        <div class="side-card">
+          <span class="lab">Inversión</span>
+          <div class="big">$8.900.000 <small>COP</small></div>
+          <p class="fine">Pago único por hitos · <b>USD 2.618</b> de referencia.<br>Mantenimiento desde $790.000 / mes, opcional.</p>
+          <a class="cta" href="https://wa.me/573046814396?text=Hola%2C%20quiero%20cotizar%20el%20plan%20Intermedio" target="_blank" rel="noopener">Hablar por WhatsApp</a>
+          <a class="ghost" href="cotizador.html#plan-intermedio">Abrir el cotizador</a>
+        </div>
+        <div class="side-card">
+          <h4>Resumen del plan</h4>
+          <ul class="side-list">
+            <li>Código <b>PLAN-02</b></li>
+            <li>Plazo <b>5 a 7 semanas</b></li>
+            <li>Automatizaciones <b>3</b></li>
+            <li>Valor de los flujos <b>$3.050.000</b></li>
+            <li>Mensualidad <b>$790.000</b></li>
+          </ul>
+        </div>
+        <div class="side-card">
+          <h4>Otros planes</h4>
+          <nav class="side-nav" aria-label="Otros planes de TI">
+              <a href="esencial.html">Esencial<span>$3.900.000</span></a>
+              <a href="elite.html">Élite<span>$16.900.000</span></a>
+              <a href="ia-aplicada.html">IA aplicada a funciones<span>$27.900.000</span></a>
+            <a href="index.html#comparacion">Comparar los cuatro<span>Tabla completa</span></a>
+          </nav>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="smp-band">
+    <div class="wrap">
+      <div class="proc-head">
+        <span class="sec-tag">Muestras del plan</span>
+        <h2>Sistemas con datos y roles en producción</h2>
+        <p>Dos montajes donde el sitio ya guarda y ordena trabajo, no solo lo muestra.</p>
+      </div>
+      <div class="smp-grid">
+        <a class="smp-card" href="https://shoyosb-maker.github.io/muestra-metro-cuadrado-/" target="_blank" rel="noopener">
+          <span class="smp-img"><img src="../assets/img/portfolio/metro-cuadrado.webp" alt="" loading="lazy" decoding="async" width="320" height="200"></span>
+          <span class="smp-body">
+            <span class="smp-cat">Sistema de gestión</span>
+            <strong>Metro Cuadrado</strong>
+            <p>Catálogo, solicitudes y panel para operar el día a día.</p>
+            <span class="smp-more">Ver proyecto →</span>
+          </span>
+        </a>
+        <a class="smp-card" href="https://shoyosb-maker.github.io/invernadero-y-simulador/" target="_blank" rel="noopener">
+          <span class="smp-img"><img src="../assets/img/portfolio/invernadero.webp" alt="" loading="lazy" decoding="async" width="320" height="200"></span>
+          <span class="smp-body">
+            <span class="smp-cat">Gemelo digital</span>
+            <strong>Invernadero de café</strong>
+            <p>Panel con variables, simulador y lectura de datos del cultivo.</p>
+            <span class="smp-more">Ver proyecto →</span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="plan-cta-band" id="cotizar">
+    <div class="wrap">
+      <h2>¿Avanzamos con el plan Intermedio?</h2>
+      <p>La primera conversación no tiene costo y termina en un alcance por escrito: qué entra, qué no, cuánto vale y en cuánto tiempo. Si el plan no es el que corresponde, se dice en esa misma reunión.</p>
+      <div class="cta-btns">
+        <a class="btn btn-primary" href="https://wa.me/573046814396?text=Hola%2C%20quiero%20cotizar%20el%20plan%20Intermedio" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+        <a class="btn btn-ghost" href="cotizador.html#plan-intermedio">Ajustar la inversión</a>
+      </div>
+      <nav class="plan-jump" aria-label="Los cuatro planes">
+          <a href="esencial.html"><b>Esencial</b><span>$3.900.000</span></a>
+          <a href="intermedio.html" aria-current="page"><b>Intermedio</b><span>$8.900.000</span></a>
+          <a href="elite.html"><b>Élite</b><span>$16.900.000</span></a>
+          <a href="ia-aplicada.html"><b>IA aplicada a funciones</b><span>$27.900.000</span></a>
+      </nav>
+      <nav class="det-nav" aria-label="Navegación entre planes">
+        <a href="esencial.html">← Plan Esencial</a>
+        <a href="index.html#comparacion">Comparar los cuatro</a>
+        <a href="elite.html">Plan Élite →</a>
+      </nav>
+    </div>
+  </section>
+
+  <div class="toc-float" data-det-toc></div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-inner">
+      <div class="foot-brand">
+        <img src="../assets/img/brand/logo-simbolo-128.png" alt="">
+        <div>Fundaserinco<span>Ingeniería · Tecnología · IA</span></div>
+      </div>
+      <nav class="foot-links" aria-label="Enlaces del pie">
+        <a href="../index.html#ecosistema">Ecosistema</a>
+        <a href="index.html">Planes TI</a>
+        <a href="cotizador.html">Cotizador</a>
+        <a href="../index.html#portafolio">Portafolio</a>
+        <a href="../index.html#contacto">Contacto</a>
+      </nav>
+    </div>
+    <p class="fine">Fundaserinco · Pereira, Risaralda · Colombia · +57 304 681 4396 · Fundaserinco@gmail.com<br>
+      Plan 02 de 04 · precios en pesos colombianos a 2026 · referencia USD a TRM 3.400</p>
+  </div>
+</footer>
+
+<script src="../js/detalle.js?v=20261122b" defer></script>
+
+</body>
+</html>

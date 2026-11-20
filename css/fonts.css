@@ -1,0 +1,50 @@
+/* Tipografías alojadas en el sitio: no hay peticiones a Google Fonts.
+   Generado desde las variables oficiales de cada familia. */
+
+@font-face{
+  font-family:'Inter';
+  font-style:normal;
+  font-weight:300 700;
+  font-display:swap;
+  src:url('../assets/fonts/inter-latin-ext.woff2') format('woff2');
+}
+
+@font-face{
+  font-family:'Inter';
+  font-style:normal;
+  font-weight:300 700;
+  font-display:swap;
+  src:url('../assets/fonts/inter-latin.woff2') format('woff2');
+}
+
+@font-face{
+  font-family:'JetBrains Mono';
+  font-style:normal;
+  font-weight:400 500;
+  font-display:swap;
+  src:url('../assets/fonts/jetbrains-mono-latin-ext.woff2') format('woff2');
+}
+
+@font-face{
+  font-family:'JetBrains Mono';
+  font-style:normal;
+  font-weight:400 500;
+  font-display:swap;
+  src:url('../assets/fonts/jetbrains-mono-latin.woff2') format('woff2');
+}
+
+@font-face{
+  font-family:'Space Grotesk';
+  font-style:normal;
+  font-weight:400 700;
+  font-display:swap;
+  src:url('../assets/fonts/space-grotesk-latin-ext.woff2') format('woff2');
+}
+
+@font-face{
+  font-family:'Space Grotesk';
+  font-style:normal;
+  font-weight:400 700;
+  font-display:swap;
+  src:url('../assets/fonts/space-grotesk-latin.woff2') format('woff2');
+}

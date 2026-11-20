@@ -1,0 +1,17 @@
+# Copia de respaldo local de las fichas antes del rediseño: no forma parte del sitio
+servicios-backup/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+!.vscode/extensions.json
+.idea/
+
+# Dependencias y registros (no se usan, pero por si acaso)
+node_modules/
+*.log
+npm-debug.log*

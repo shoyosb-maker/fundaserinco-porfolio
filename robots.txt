@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Cuando el sitio tenga dominio propio, descomenta y ajusta estas dos líneas
+# (y reemplaza REEMPLAZA-ESTE-DOMINIO en sitemap.xml por el mismo dominio):
+# Host: fundaserinco.com
+# Sitemap: https://fundaserinco.com/sitemap.xml

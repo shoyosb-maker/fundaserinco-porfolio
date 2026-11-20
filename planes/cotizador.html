@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#05080f">
+<meta name="description" content="Cotizador de Fundaserinco: estima el rango de inversión por línea de trabajo, escala y módulos adicionales. Rangos de mercado 2026 con envío directo por WhatsApp.">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/img/brand/logo-simbolo-128.png">
+<link rel="apple-touch-icon" href="../assets/img/brand/logo-simbolo-180.png">
+<title>Cotizador de proyectos · Fundaserinco</title>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fundaserinco">
+<meta property="og:locale" content="es_CO">
+<meta property="og:title" content="Cotizador de proyectos · Fundaserinco">
+<meta property="og:description" content="Cotizador de Fundaserinco: estima el rango de inversión por línea de trabajo, escala y módulos adicionales. Rangos de mercado 2026 con envío directo por WhatsApp.">
+<meta property="og:image" content="../assets/img/og/cotizador.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/jpeg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Cotizador de proyectos · Fundaserinco">
+<meta name="twitter:description" content="Cotizador de Fundaserinco: estima el rango de inversión por línea de trabajo, escala y módulos adicionales. Rangos de mercado 2026 con envío directo por WhatsApp.">
+<meta name="twitter:image" content="../assets/img/og/cotizador.jpg">
+
+<link rel="preload" href="../assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/jetbrains-mono-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../css/fonts.css?v=20261120e">
+<script>document.documentElement.classList.remove("no-js");</script>
+<link rel="stylesheet" href="../css/styles.css?v=20261120e">
+<link rel="stylesheet" href="../css/detalle.css?v=20261120e">
+</head>
+<body class="detalle">
+
+<header class="topbar">
+  <a class="tb-brand" href="../index.html" aria-label="Fundaserinco, volver al portafolio">
+    <img src="../assets/img/brand/logo-simbolo-128.png" alt="Símbolo Fundaserinco">
+    <span class="tb-name">Fundaserinco<span>Cotizador de proyectos</span></span>
+  </a>
+  <div class="tb-status"><i></i>Estimador · rangos 2026</div>
+  <div class="tb-right">
+    <a class="tb-tel" href="index.html">
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>
+      <span>Planes TI</span>
+    </a>
+    <a class="btn btn-primary" href="https://wa.me/573046814396?text=Hola%2C%20quiero%20cotizar%20un%20proyecto" target="_blank" rel="noopener">Hablar con un asesor</a>
+  </div>
+</header>
+
+<main>
+  <section class="det-hero is-plain">
+    <div class="wrap det-hero-inner">
+      <span class="eyebrow"><span class="dot"></span>Estimador de inversión</span>
+      <h1>Calcula el rango de tu proyecto</h1>
+      <p class="lead">Un rango orientativo con los mismos componentes que aparecen en la propuesta. La cifra exacta depende del alcance, pero el orden de magnitud no cambia: sirve para decidir si el proyecto entra en el presupuesto antes de la primera reunión.</p>
+    </div>
+  </section>
+
+  <section class="det-sec">
+    <div class="wrap">
+      <div class="calc-grid">
+        <div class="calc-form">
+          <div class="calc-field">
+            <label for="calcServicio">Línea de trabajo</label>
+            <select class="calc-select" id="calcServicio">
+              <option value="civil">Ingeniería civil y diseño estructural</option>
+              <option value="seguridad">Seguridad electrónica</option>
+              <option value="telecom">Telecomunicaciones y redes</option>
+              <option value="energia">Energía y RETIE</option>
+              <option value="software">Tecnología y software</option>
+              <option value="integrales">Proyectos integrales</option>
+              <option value="deportivas">Instalaciones deportivas</option>
+            </select>
+          </div>
+
+          <div class="calc-field">
+            <span class="calc-label">Escala del proyecto</span>
+            <div class="scale-row" id="calcEscala" role="group" aria-label="Escala del proyecto">
+              <button type="button" class="scale-btn" data-scale="p" aria-pressed="false">Pequeño<small>Un frente</small></button>
+              <button type="button" class="scale-btn is-on" data-scale="m" aria-pressed="true">Mediano<small>Varios frentes</small></button>
+              <button type="button" class="scale-btn" data-scale="g" aria-pressed="false">Grande<small>Multisitio</small></button>
+            </div>
+          </div>
+
+          <div class="calc-field">
+            <span class="calc-label">Módulos adicionales</span>
+            <div class="toggle-row">
+              <button type="button" class="toggle" id="addAuto" aria-pressed="false">
+                <span class="t-sw"></span>
+                <span class="t-txt">Automatizaciones<small>Flujos que mueven la información sin intervención</small></span>
+              </button>
+              <button type="button" class="toggle" id="addIa" aria-pressed="false">
+                <span class="t-sw"></span>
+                <span class="t-txt">Funciones de IA<small>Clasificar, extraer o responder con los datos del negocio</small></span>
+              </button>
+              <button type="button" class="toggle" id="addDash" aria-pressed="false">
+                <span class="t-sw"></span>
+                <span class="t-txt">Dashboard de control<small>Métricas operativas, roles y exportes</small></span>
+              </button>
+              <button type="button" class="toggle" id="addIntegra" aria-pressed="false">
+                <span class="t-sw"></span>
+                <span class="t-txt">Integraciones y pagos<small>Pasarela, CRM y APIs externas</small></span>
+              </button>
+              <button type="button" class="toggle" id="addSoporte" aria-pressed="false">
+                <span class="t-sw"></span>
+                <span class="t-txt">Soporte mensual<small>Monitoreo, backups y bolsa de horas</small></span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <aside class="calc-summary" aria-live="polite">
+          <div class="cs-head">Resumen de la estimación</div>
+          <p class="cs-preset" id="crPreset" hidden></p>
+          <p class="cs-title" id="crTitle">Ingeniería civil · escala mediana</p>
+          <div class="cs-total">
+            <span id="crTotal">—</span>
+            <span class="usd-inline" id="crUsd"></span>
+          </div>
+          <ul class="cs-lines" id="crLines"></ul>
+          <p class="cs-note" id="crMonthly">—</p>
+          <a class="btn btn-primary cs-cta" id="crCta" href="../index.html#contacto">
+            Enviar esta estimación por WhatsApp
+          </a>
+          <button type="button" class="btn btn-ghost cs-copy" id="crCopy">Copiar enlace de esta estimación</button>
+          <p class="cs-note cs-copied" id="crCopied" hidden>Enlace copiado. Al abrirlo, la estimación aparece igual.</p>
+          <p class="cs-note">Estimación orientativa basada en rangos de mercado 2026. La cotización exacta se emite después de la visita técnica.</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="det-sec">
+    <div class="wrap">
+      <h2>Cómo se arma el número</h2>
+      <p class="det-sub">El rango sale de tres factores que se pueden explicar y discutir por separado. Nada de esto reemplaza la visita técnica: la ajusta.</p>
+
+      <div class="det-grid c3">
+        <article class="norm-card">
+          <h3>Línea de trabajo</h3>
+          <p>Cada frente tiene un rango propio por hora de ingeniería, materiales y certificaciones. La base del cálculo es la misma que se usa en la propuesta.</p>
+        </article>
+        <article class="norm-card">
+          <h3>Escala del proyecto</h3>
+          <p>Un frente único, varios frentes o varias sedes cambian la cantidad de visitas, la coordinación y el volumen de documentación.</p>
+        </article>
+        <article class="norm-card">
+          <h3>Módulos adicionales</h3>
+          <p>IA, dashboard, integraciones y soporte se suman como componentes con precio propio, no como un porcentaje difuso sobre el total.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="det-sec">
+    <div class="wrap">
+      <div class="det-cta">
+        <div>
+          <h2>¿Quieres la cifra cerrada?</h2>
+          <p>El rango de este estimador se convierte en una propuesta con cantidades, precios y cronograma después de la visita técnica. Si el proyecto no aplica, se dice en la primera reunión.</p>
+        </div>
+        <div class="det-cta-actions">
+          <a class="btn btn-primary" href="https://wa.me/573046814396?text=Hola%2C%20quiero%20una%20cotizaci%C3%B3n%20cerrada" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+          <a class="btn btn-ghost" href="index.html">Ver los planes de TI</a>
+        </div>
+      </div>
+      <nav class="det-nav" aria-label="Otras páginas">
+        <a href="index.html">← Planes de TI</a>
+        <a href="../index.html#ecosistema">Ecosistema</a>
+        <a href="../index.html#contacto">Contacto →</a>
+      </nav>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-inner">
+      <div class="foot-brand">
+        <img src="../assets/img/brand/logo-simbolo-128.png" alt="">
+        <div>Fundaserinco<span>Ingeniería · Tecnología · IA</span></div>
+      </div>
+      <nav class="foot-links" aria-label="Enlaces del pie">
+        <a href="../index.html#ecosistema">Ecosistema</a>
+        <a href="index.html">Planes TI</a>
+        <a href="cotizador.html">Cotizador</a>
+        <a href="../index.html#portafolio">Portafolio</a>
+        <a href="../index.html#contacto">Contacto</a>
+      </nav>
+    </div>
+    <p class="fine">Fundaserinco · Pereira, Risaralda · Colombia · +57 304 681 4396 · Fundaserinco@gmail.com<br>
+      Cotizador orientativo · rangos de mercado 2026 · la cotización exacta se emite tras la visita técnica</p>
+  </div>
+</footer>
+
+<script src="../js/cotizador.js?v=20261122a" defer></script>
+</body>
+</html>

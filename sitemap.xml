@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Mapa del sitio · Fundaserinco
+  Reemplaza REEMPLAZA-ESTE-DOMINIO por el dominio real antes de publicar
+  (basta un buscar y reemplazar en todo el archivo) y activa la línea
+  Sitemap: en robots.txt.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://REEMPLAZA-ESTE-DOMINIO/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://REEMPLAZA-ESTE-DOMINIO/servicios/ingenieria-civil.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://REEMPLAZA-ESTE-DOMINIO/servicios/seguridad-electronica.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://REEMPLAZA-ESTE-DOMINIO/servicios/telecomunicaciones.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://REEMPLAZA-ESTE-DOMINIO/servicios/energia-retie.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://REEMPLAZA-ESTE-DOMINIO/servicios/tecnologia-software.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://REEMPLAZA-ESTE-DOMINIO/servicios/proyectos-integrales.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://REEMPLAZA-ESTE-DOMINIO/servicios/instalaciones-deportivas.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://REEMPLAZA-ESTE-DOMINIO/planes/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://REEMPLAZA-ESTE-DOMINIO/planes/esencial.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://REEMPLAZA-ESTE-DOMINIO/planes/intermedio.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://REEMPLAZA-ESTE-DOMINIO/planes/elite.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://REEMPLAZA-ESTE-DOMINIO/planes/ia-aplicada.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://REEMPLAZA-ESTE-DOMINIO/planes/cotizador.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>
